@@ -1,0 +1,31 @@
+{
+  "name": "junho-cli",
+  "version": "0.0.1",
+  "description": "前端构建工具模仿vue-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "junho-cli": "./bin/main.js"
+  },
+  "author": "junhoChan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "commander": "^4.1.1",
+    "consolidate": "^0.15.1",
+    "download-git-repo": "^3.0.2",
+    "ejs": "^3.0.1",
+    "fs-extra": "^8.1.0",
+    "inquirer": "^7.0.4",
+    "metalsmith": "^2.3.0",
+    "ncp": "^2.0.0",
+    "ora": "^4.0.3",
+    "util": "^0.12.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "husky": "^4.2.3"
+  }
+}
