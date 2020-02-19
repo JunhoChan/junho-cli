@@ -86,7 +86,6 @@ const getTagLists =  async (repo) =>{
 
 // 复制项目从临时文件到本地工作项目
 const copyTempToLoclhost = async (target, projectName) => {
-  console.log('测试');
   const resolvePath = path.join(path.resolve(), projectName);
   // 此处模拟如果仓库中有ask.js就表示是复杂的仓库项目
   if (!fs.existsSync(path.join(target, 'ask.js'))) {
